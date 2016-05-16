@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>js dom  第3天</title>
+  <style type="text/css">
+    table{
+      width:600px;
+      text-align: center;
+      border-collapse: collapse;
+    }
+    td,th{
+      border:1px solid black;
+    }
+  </style>
+ </head>
+ <body>
+   <h1>购物车</h1>
+   <table id="data">
+    <tr>
+      <td>商品名称</td>
+      <td>价格</td>
+      <td>数量</td>
+      <td>小计</td>
+    </tr>
+    <tr>
+      <td>iphone6</td>
+      <td>&yen;5100.00</td>
+      <td>
+        <button onclick="cartAdd(this)">+</button>
+        <span>1</span>
+        <button onclick="cartSub(this)">-</button>
+        <button onclick="mt(this)">手动输入</button>
+      </td>
+      <td>5100.00</td>
+    </tr>
+    <tr>
+      <td>iphone6s</td>
+      <td>&yen;5800.00</td>
+      <td>
+        <button onclick="cartAdd(this)">+</button>
+        <span>1</span>
+        <button onclick="cartSub(this)">-</button>
+        <button onclick="mt(this)">手动输入</button>
+      </td>
+      <td>5800.00</td>
+    </tr>
+   </table>
+   <script src="cart.js">
+     
+   </script>
+ 	<script>
+   
+ 	</script>
+ </body>
+</html>
