@@ -7,7 +7,7 @@ function mt(btn){
 	var span = td.getElementsByTagName('span')[0];
 	var n =span.innerHTML;
 	span.innerHTML = parseInt(prompt("输入数量"));
-	if (n>=9999 || n<=0) {
+	if (span.innerHTML>=9999 || span.innerHTML<=0) {
 		alert("数量只能在1-9999之间")
 		span.innerHTML = 1;
 	}
