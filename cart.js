@@ -1,5 +1,5 @@
 //alert("1")
-var but = document.getElementsByTagName('button');
+//var but = document.getElementsByTagName('button');
 //var num = document.
 //var price = 
 function mt(btn){
@@ -25,8 +25,8 @@ function cartAdd(btn){
 	var n =span.innerHTML;
 	n++;
 	span.innerHTML=n;
-	if(n >= 999){
-		alert("最低只能是一个")
+	if(n >= 9999){
+		alert("最多只能是9999个")
 		span.innerHTML=9999;}
 	var tr = td.parentNode;
 	var tds = tr.getElementsByTagName("td");
